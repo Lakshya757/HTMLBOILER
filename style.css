@@ -1,0 +1,39 @@
+h1{
+    color: aliceblue;
+    font-style:oblique;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;   
+    height: 50;    
+    
+    align-items:center;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.item{
+    position: relative;
+}
+
+
+
